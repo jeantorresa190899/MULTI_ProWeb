@@ -7,7 +7,7 @@ namespace MULTI_ProWeb.Models.Interface
 {
     public interface IUsuarioRepository
     {
-
+        IEnumerable<Usuario> GetAllUsuarios();
         void Add(Usuario usuario);
     }
 }

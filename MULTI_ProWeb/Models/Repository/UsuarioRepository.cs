@@ -24,5 +24,10 @@ namespace MULTI_ProWeb.Models.Repository
                 Console.Write(e.Message);
             }
         }
+
+        public IEnumerable<Usuario> GetAllUsuarios()
+        {
+            return db.Usuarios;
+        }
     }
 }
