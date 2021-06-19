@@ -17,5 +17,11 @@ namespace MULTI_ProWeb.Controllers
         {
             return View();
         }
+
+        public IActionResult register()
+        {
+            return View();
+            
+        }
     }
 }
