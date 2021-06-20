@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulcefina</title>
+
+    <link href="~/css/esti.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <div id="Principal">
+        <div id="Cabecera">
+            <div id="nompag">
+                <a href="http://www.google.com" target="_blank"><img src="~/imagenes/facebook.png" /></a>         
+                <a href="http://www.google.com" target="_blank"><img src="~/imagenes/insta.png" /></a>
+                <a id="dulce" href="QuienesSomos.html">DULCEFINA</a>
+                <a asp-controller="Principal" asp-action="log" target="_blank"><i>Registrarse/Iniciar sesión</i></a>
+
+                <a href="http://www.google.com" target="_blank"><img class="carrito" <img src="~/imagenes/carrito.png" /> title="fm" alt="logo"></a>
+            </div>
+            
+            <div id="menuu">
+                <nav class="navegacion">
+                    <ul class="menu">
+                        <li><a href="#" target="_blank">HOME</a></li>   <!--para que se abra el link en otra pagina-->
+                        <li><a href="#" target="_blank">NOSOTROS</a></li>
+                        <li><a href="#" target="_blank">TIENDA</a></li>
+                        <li><a href="#" target="_blank">NOVIAS</a></li>
+                        <li><a href="#" target="_blank">DULCEFINA FACTORY</a></li>
+                        <li><a href="#" target="_blank">ENCUÉNTRANOS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>

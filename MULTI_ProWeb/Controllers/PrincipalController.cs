@@ -51,5 +51,11 @@ namespace MULTI_ProWeb.Controllers
             }
         }
 
+
+        public IActionResult escoger()
+        {
+            return View();
+        }
+
     }
 }
